@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Topbar from "../components/Topbar";
+import Header from "../components/Header/Header";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           topBarMsg="FREE SHIPPING ON ALL ORDERS OVER $75"
           topBarMsgMobile="Free Shipping On All Orders"
         />
+        <Header />
       </main>
     </div>
   );
