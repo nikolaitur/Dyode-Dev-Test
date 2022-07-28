@@ -38,3 +38,27 @@ export const HERO_SLIDER_ITEMS = [
     contentPosition: "middle-left",
   },
 ];
+
+export const COLLECTION_ITEMS = [
+  {
+    image: "/images/col_man.png",
+    imageAlt: "Men's image",
+    title: "Men's",
+    href: "/collection/men",
+    gridSize: "",
+  },
+  {
+    image: "/images/col_woman.png",
+    imageAlt: "Women's image",
+    title: "Women's",
+    href: "/collection/women",
+    gridSize: "",
+  },
+  {
+    image: "/images/accessories.png",
+    imageAlt: "Accessories",
+    title: "Accessories",
+    href: "/collection/accessories",
+    gridSize: "basis-full md:basis-1/3",
+  },
+];

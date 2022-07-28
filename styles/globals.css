@@ -92,6 +92,14 @@ body {
   margin: 14px auto 0;
 }
 
+.collection-item-img {
+  height: 171px;
+}
+
+.collection-item .collection-title {
+  font-size: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 46px;
@@ -225,5 +233,13 @@ body {
 
   .hero-slider-container .slick-dots {
     bottom: 20px;
+  }
+
+  .collection-item-img {
+    height: 482px;
+  }
+
+  .collection-item .collection-title {
+    font-size: 40px;
   }
 }
