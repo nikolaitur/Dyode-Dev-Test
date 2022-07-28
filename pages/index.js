@@ -3,6 +3,7 @@ import Topbar from "../components/Topbar";
 import Header from "../components/Header/Header";
 import HeroSlider from "../components/Hero/HeroSlider";
 import CollectionGrid from "../components/Collections/CollectionGrid";
+import ProductsCarousel from "../components/ProductCarousel/ProductsCarousel";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Header />
         <HeroSlider />
         <CollectionGrid />
+        <ProductsCarousel />
       </main>
     </div>
   );

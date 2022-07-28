@@ -62,3 +62,41 @@ export const COLLECTION_ITEMS = [
     gridSize: "basis-full md:basis-1/3",
   },
 ];
+
+export const PRODUCT_ITEMS = [
+  {
+    image: "/images/product_image.png",
+    imageAlt: "Product Image",
+    title: "Product Title",
+    info: "WOMEN’S T-SHIRT",
+    price: "$19.99",
+  },
+  {
+    image: "/images/product_image.png",
+    imageAlt: "Product Image",
+    title: "Product Title",
+    info: "WOMEN’S T-SHIRT",
+    price: "$19.99",
+  },
+  {
+    image: "/images/product_image.png",
+    imageAlt: "Product Image",
+    title: "Product Title",
+    info: "WOMEN’S T-SHIRT",
+    price: "$19.99",
+  },
+  {
+    image: "/images/product_image.png",
+    imageAlt: "Product Image",
+    title: "Product Title",
+    info: "WOMEN’S T-SHIRT",
+    price: "$19.99",
+  },
+  {
+    image: "/images/product_image.png",
+    imageAlt: "Product Image",
+    title: "Product Title",
+    info: "WOMEN’S T-SHIRT",
+    price: "$19.99",
+  },
+];
