@@ -100,3 +100,15 @@ export const PRODUCT_ITEMS = [
     price: "$19.99",
   },
 ];
+
+export const SECONDARY_HERO = {
+  bgImage: "/images/hero_4.png",
+  bgImageMobile: "/images/hero_4_mob.png",
+  href: "/",
+  title: "Our Favorite Tees",
+  subtitle: "Everyday tees you need!",
+  btnText: "Shop Now",
+  bgImageAlt: "Women's image",
+  textPrimaryColor: false,
+  contentPosition: "top-right",
+};

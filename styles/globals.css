@@ -140,6 +140,16 @@ body {
   height: 12px;
 }
 
+.newsletter-section .description {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.newsletter-section form button {
+  width: 148px;
+  height: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 46px;
@@ -308,5 +318,23 @@ body {
   .products-slider .slick-arrow {
     width: 24px;
     height: 40px;
+  }
+
+  .newsletter-section .description {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .newsletter-section form button {
+    width: 140px;
+    height: 54px;
+  }
+
+  .newsletter-section form input {
+    font-size: 22px;
+  }
+
+  .newsletter-section form input::placeholder {
+    color: #c6c6c6;
   }
 }

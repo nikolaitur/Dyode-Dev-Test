@@ -4,6 +4,9 @@ import Header from "../components/Header/Header";
 import HeroSlider from "../components/Hero/HeroSlider";
 import CollectionGrid from "../components/Collections/CollectionGrid";
 import ProductsCarousel from "../components/ProductCarousel/ProductsCarousel";
+import NewsletterForm from "../components/NewsletterForm";
+import HeroSlideItem from "../components/Hero/HeroSlideItem";
+import { SECONDARY_HERO } from "../utils/data";
 
 export default function Home() {
   return (
@@ -27,6 +30,8 @@ export default function Home() {
         <HeroSlider />
         <CollectionGrid />
         <ProductsCarousel />
+        <HeroSlideItem {...SECONDARY_HERO} />
+        <NewsletterForm />
       </main>
     </div>
   );
