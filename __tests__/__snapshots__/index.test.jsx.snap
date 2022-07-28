@@ -1,0 +1,1822 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <main>
+      <div
+        class="bg-black flex items-center justify-center p-4 md:p-5"
+      >
+        <p
+          class="text-sm tracking-widest text-white font-medium uppercase"
+        >
+          <span
+            class="hidden md:block"
+            data-testid="desktop-msg"
+          >
+            FREE SHIPPING ON ALL ORDERS OVER $75
+          </span>
+          <span
+            class="md:hidden"
+            data-testid="mobile-msg"
+          >
+            Free Shipping On All Orders
+          </span>
+        </p>
+      </div>
+      <header
+        class="header bg-dyode-green px-5 md:px-12 md:pt-8 md:pb-5 py-2 flex flex-row items-center"
+      >
+        <div
+          class="header-menu__icon md:hidden"
+          data-testid="header-menu-icon"
+        >
+          <div>
+            <span
+              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+            >
+              <span
+                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2728%27%20height=%2728%27/%3e"
+                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                />
+              </span>
+              <img
+                alt="Menu Icon"
+                data-nimg="intrinsic"
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+              />
+              <noscript />
+            </span>
+          </div>
+        </div>
+        <div
+          class="header-logo ml-6 md:ml-0 grow md:grow-0 translate-y-1 md:translate-y-0 w-14 md:w-32"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Logo"
+              layout="responsive"
+              src="/logo.png"
+            />
+          </a>
+        </div>
+        <div
+          class="header-navigation grow"
+        >
+          <div
+            class="nav__menu "
+            data-testid="header-nav"
+          >
+            <div>
+              <a
+                class="nav__item pt-2 md:pt-0 block text-white uppercase text-lg md:text-xl font-medium tracking-widest"
+                href="/mens"
+              >
+                Men's
+              </a>
+            </div>
+            <div>
+              <a
+                class="nav__item pt-2 md:pt-0 block text-white uppercase text-lg md:text-xl font-medium tracking-widest"
+                href="/womens"
+              >
+                Women's
+              </a>
+            </div>
+            <div>
+              <a
+                class="nav__item pt-2 md:pt-0 block text-white uppercase text-lg md:text-xl font-medium tracking-widest"
+                href="/accessories"
+              >
+                Accessories
+              </a>
+            </div>
+            <div>
+              <a
+                class="nav__item pt-2 md:pt-0 block text-white uppercase text-lg md:text-xl font-medium tracking-widest"
+                href="/sale"
+              >
+                Sale!
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="header-action flex items-center gap-5 md:w-32 justify-end"
+        >
+          <div
+            class="header-action-item"
+          >
+            <a
+              href="/search"
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2720%27%20height=%2720%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Logo"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+            </a>
+          </div>
+          <div
+            class="header-action-item"
+          >
+            <a
+              href="/account"
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2723%27%20height=%2723%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Logo"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+            </a>
+          </div>
+          <div
+            class="header-action-item"
+          >
+            <a
+              href="/cart"
+            >
+              <span
+                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                >
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2720%27%20height=%2720%27/%3e"
+                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                  />
+                </span>
+                <img
+                  alt="Logo"
+                  data-nimg="intrinsic"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <div
+        class="hero-slider-container"
+        data-testid="hero-slider"
+      >
+        <div
+          class="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <div
+            class="slick-list"
+          >
+            <div
+              class="slick-track"
+              style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+            >
+              <div
+                aria-hidden="true"
+                class="slick-slide slick-cloned"
+                data-index="-1"
+                style="width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Shirts"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-secondary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Men’s Tees
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Find the perfect shirt.
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="false"
+                class="slick-slide slick-active slick-current"
+                data-index="0"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Man and Woman"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-primary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Shop New Arrivals
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Our coolest new items are waiting for you!
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide"
+                data-index="1"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Tees"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-secondary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Our Fave Tees
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Shop all of our favorites.
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide"
+                data-index="2"
+                style="outline: none; width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Shirts"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-secondary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Men’s Tees
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Find the perfect shirt.
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide slick-cloned"
+                data-index="3"
+                style="width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Man and Woman"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-primary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Shop New Arrivals
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Our coolest new items are waiting for you!
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide slick-cloned"
+                data-index="4"
+                style="width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Tees"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-secondary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Our Fave Tees
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Shop all of our favorites.
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="slick-slide slick-cloned"
+                data-index="5"
+                style="width: 0px;"
+                tabindex="-1"
+              >
+                <div>
+                  <div
+                    class="hero-slide-item relative h-full"
+                  >
+                    <div
+                      class="hero-slide-image relative"
+                    >
+                      <span
+                        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                      >
+                        <img
+                          alt="Shirts"
+                          data-nimg="fill"
+                          decoding="async"
+                          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                        />
+                        <noscript />
+                      </span>
+                    </div>
+                    <div
+                      class="hero-content relative md:absolute middle-left text-secondary"
+                    >
+                      <div
+                        class="hero-title text-6xl font-title"
+                      >
+                        Men’s Tees
+                      </div>
+                      <div
+                        class="hero-subtitle"
+                      >
+                        Find the perfect shirt.
+                      </div>
+                      <a
+                        class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+                        href="/"
+                      >
+                        Shop Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="slick-dots"
+            style="display: block;"
+          >
+            <li
+              class="slick-active"
+            >
+              <button>
+                1
+              </button>
+            </li>
+            <li
+              class=""
+            >
+              <button>
+                2
+              </button>
+            </li>
+            <li
+              class=""
+            >
+              <button>
+                3
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="container mt-5 md:mt-12"
+      >
+        <div
+          class="collection-grid flex flex-wrap -mx-1 md:-mx-3"
+        >
+          <div
+            class="collection-item basis-1/2 md:basis-1/3 px-1 md:px-3 mt-2"
+          >
+            <a
+              href="/collection/men"
+            >
+              <div
+                class="collection-item-img relative"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Men's image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <span
+                class="collection-title bg-dyode-green flex items-center justify-center h-10 md:h-28 w-full font-title text-white"
+              >
+                Men's
+              </span>
+            </a>
+          </div>
+          <div
+            class="collection-item basis-1/2 md:basis-1/3 px-1 md:px-3 mt-2"
+          >
+            <a
+              href="/collection/women"
+            >
+              <div
+                class="collection-item-img relative"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Women's image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <span
+                class="collection-title bg-dyode-green flex items-center justify-center h-10 md:h-28 w-full font-title text-white"
+              >
+                Women's
+              </span>
+            </a>
+          </div>
+          <div
+            class="collection-item basis-full md:basis-1/3 px-1 md:px-3 mt-2"
+          >
+            <a
+              href="/collection/accessories"
+            >
+              <div
+                class="collection-item-img relative"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    alt="Accessories"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <span
+                class="collection-title bg-dyode-green flex items-center justify-center h-10 md:h-28 w-full font-title text-white"
+              >
+                Accessories
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container products-slider-container mt-4 md:mt-12 mb-8 md:mb-16"
+      >
+        <div
+          class="section-title font-title text-center"
+        >
+          New Arrivals
+        </div>
+        <div
+          class="products-slider"
+        >
+          <div
+            class="slick-slider slick-initialized"
+            dir="ltr"
+          >
+            <svg
+              class="slick-arrow slick-prev"
+              currentSlide="0"
+              data-role="none"
+              fill="none"
+              height="12"
+              slideCount="5"
+              style="display: block;"
+              viewBox="0 0 6 12"
+              width="6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.12659 6.3293L5.26514 11.8643C5.4335 12.0455 5.70608 12.0452 5.87415 11.8634C6.0421 11.6815 6.04167 11.3869 5.87329 11.2055L1.0406 5.99998L5.87346 0.794434C6.04182 0.613029 6.04225 0.318631 5.87433 0.136756C5.79007 0.0455847 5.67969 -9.25672e-07 5.56931 -9.16022e-07C5.45921 -9.06397e-07 5.34927 0.0452796 5.26516 0.135819L0.12659 5.67068C0.0455021 5.75782 4.18334e-07 5.87642 4.29136e-07 5.99998C4.39938e-07 6.12354 0.0456323 6.24199 0.12659 6.3293Z"
+                fill="black"
+              />
+            </svg>
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="-4"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="-3"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="-2"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="-1"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active"
+                  data-index="1"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active"
+                  data-index="2"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active"
+                  data-index="3"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide"
+                  data-index="4"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="5"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="6"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="7"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="8"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide slick-cloned"
+                  data-index="9"
+                  style="width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="product-item px-2 md:px-3 text-center"
+                    >
+                      <a
+                        href="/"
+                      >
+                        <div
+                          class="product-item-image relative"
+                        >
+                          <span
+                            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+                          >
+                            <span
+                              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 150% 0px 0px 0px;"
+                            />
+                            <img
+                              alt="Product Image"
+                              data-nimg="responsive"
+                              decoding="async"
+                              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+                            />
+                            <noscript />
+                          </span>
+                        </div>
+                        <div
+                          class="product-item-title"
+                        >
+                          Product Title
+                        </div>
+                        <div
+                          class="product-item-info text-xs md:text-base font-light"
+                        >
+                          WOMEN’S T-SHIRT
+                        </div>
+                        <div
+                          class="product-item-price text-dyode-green font-title"
+                        >
+                          $19.99
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg
+              class="slick-arrow slick-next"
+              currentSlide="0"
+              data-role="none"
+              fill="none"
+              height="12"
+              slideCount="5"
+              style="display: block;"
+              viewBox="0 0 6 12"
+              width="6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.87341 5.6707L0.734858 0.1357C0.566499 -0.0455414 0.293923 -0.0452367 0.125846 0.136638C-0.0421 0.318489 -0.041666 0.613073 0.126714 0.794456L4.9594 6.00002L0.126541 11.2056C-0.0418179 11.387 -0.0422519 11.6814 0.125673 11.8632C0.209928 11.9544 0.320308 12 0.430689 12C0.540787 12 0.650733 11.9547 0.734837 11.8642L5.87341 6.32932C5.9545 6.24218 6 6.12358 6 6.00002C6 5.87646 5.95437 5.75801 5.87341 5.6707Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero-slide-item relative h-full"
+      >
+        <div
+          class="hero-slide-image relative"
+        >
+          <span
+            style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+          >
+            <img
+              alt="Women's image"
+              data-nimg="fill"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="hero-content relative md:absolute top-right text-secondary"
+        >
+          <div
+            class="hero-title text-6xl font-title"
+          >
+            Our Favorite Tees
+          </div>
+          <div
+            class="hero-subtitle"
+          >
+            Everyday tees you need!
+          </div>
+          <a
+            class="hero-link block tracking-widest text-sm px-5 py-3 text-white uppercase bg-black"
+            href="/"
+          >
+            Shop Now
+          </a>
+        </div>
+      </div>
+      <div
+        class="newsletter-section bg-dyode-green pt-4 pb-6 md:py-20"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="section-title flex items-center justify-center gap-2 md:gap-3"
+          >
+            <img
+              alt="mailbox"
+              class="w-7 md:w-14"
+              src="/icons/mailbox.svg"
+            />
+            <span
+              class="font-title text-white text-xl md:text-7xl"
+            >
+              Sign Up & Stay Connected
+            </span>
+          </div>
+          <div
+            class="section-content mt-3 md:mt-6 flex items-start justify-between flex-wrap"
+          >
+            <p
+              class="description text-white basis-full md:basis-1/2 text-center md:text-left"
+            >
+              Sign up for the newsletter and get 20% off! Gain access to exclusive offers and be the first to know when new stuff drops!
+            </p>
+            <form
+              class="basis-full mt-14 md:mt-0 md:basis-1/2 md:pl-12 flex"
+            >
+              <input
+                class="grow pl-4 hidden md:block"
+                placeholder="Enter Your Email Address"
+              />
+              <button
+                class="mx-auto md:ml-3 text-sm tracking-widest uppercase text-white bg-dyode-green border border-white flex items-center justify-center"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="bg-black pt-4 pb-6 md:py-16 "
+      >
+        <div
+          class="container flex flex-wrap justify-start"
+        >
+          <div
+            class="flex flex-grow flex-wrap"
+          >
+            <div
+              class="footer-nav-item basis-full md:basis-1/5"
+            >
+              <div
+                class="footer-title-wrap flex items-center justify-between"
+                data-testid="nav-title-0"
+              >
+                <div
+                  class="footer-title font-title text-white"
+                >
+                  Customer Service
+                </div>
+                <div
+                  class="accordion-state md:hidden"
+                >
+                  <svg
+                    fill="none"
+                    height="11"
+                    viewBox="0 0 10 11"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.10156 6.53125H1.69531C1.46615 6.53125 1.26204 6.5026 1.08301 6.44531C0.911133 6.38802 0.767904 6.31283 0.65332 6.21973C0.538737 6.11947 0.452799 6.00846 0.395508 5.88672C0.338216 5.76497 0.30957 5.63965 0.30957 5.51074C0.30957 5.38184 0.338216 5.25651 0.395508 5.13477C0.459961 5.00586 0.549479 4.89486 0.664062 4.80176C0.785807 4.7015 0.936198 4.62272 1.11523 4.56543C1.29427 4.50098 1.50195 4.46875 1.73828 4.46875H4.10156V2.01953C4.10156 1.81901 4.13379 1.63997 4.19824 1.48242C4.26986 1.32487 4.36296 1.19238 4.47754 1.08496C4.59212 0.970378 4.71745 0.88444 4.85352 0.827148C4.98958 0.769857 5.12923 0.741211 5.27246 0.741211C5.50163 0.741211 5.70573 0.827148 5.88477 0.999023C6.07096 1.1709 6.16406 1.44303 6.16406 1.81543V4.46875H8.84961C9.22201 4.46875 9.49414 4.56185 9.66602 4.74805C9.83789 4.92708 9.92383 5.13118 9.92383 5.36035C9.92383 5.50358 9.89518 5.64323 9.83789 5.7793C9.7806 5.91536 9.69466 6.04069 9.58008 6.15527C9.47266 6.26986 9.34017 6.36296 9.18262 6.43457C9.02507 6.49902 8.84603 6.53125 8.64551 6.53125H6.16406V8.92676C6.16406 9.16309 6.13184 9.37077 6.06738 9.5498C6.01009 9.72884 5.93132 9.87923 5.83105 10.001C5.73796 10.1156 5.62695 10.2051 5.49805 10.2695C5.3763 10.3268 5.25098 10.3555 5.12207 10.3555C4.99316 10.3555 4.86784 10.3268 4.74609 10.2695C4.62435 10.2122 4.51335 10.1263 4.41309 10.0117C4.31999 9.89714 4.24479 9.75391 4.1875 9.58203C4.13021 9.40299 4.10156 9.19889 4.10156 8.96973V6.53125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="footer-nav-linklists my-3 overflow-hidden transition-all "
+                data-testid="nav-linklists-0"
+              >
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Accessibility
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Contact Us
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Return Policy
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      FAQ
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Gift Certificates
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Wishlist
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="footer-nav-item basis-full md:basis-1/5"
+            >
+              <div
+                class="footer-title-wrap flex items-center justify-between"
+                data-testid="nav-title-1"
+              >
+                <div
+                  class="footer-title font-title text-white"
+                >
+                  Company
+                </div>
+                <div
+                  class="accordion-state md:hidden"
+                >
+                  <svg
+                    fill="none"
+                    height="11"
+                    viewBox="0 0 10 11"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.10156 6.53125H1.69531C1.46615 6.53125 1.26204 6.5026 1.08301 6.44531C0.911133 6.38802 0.767904 6.31283 0.65332 6.21973C0.538737 6.11947 0.452799 6.00846 0.395508 5.88672C0.338216 5.76497 0.30957 5.63965 0.30957 5.51074C0.30957 5.38184 0.338216 5.25651 0.395508 5.13477C0.459961 5.00586 0.549479 4.89486 0.664062 4.80176C0.785807 4.7015 0.936198 4.62272 1.11523 4.56543C1.29427 4.50098 1.50195 4.46875 1.73828 4.46875H4.10156V2.01953C4.10156 1.81901 4.13379 1.63997 4.19824 1.48242C4.26986 1.32487 4.36296 1.19238 4.47754 1.08496C4.59212 0.970378 4.71745 0.88444 4.85352 0.827148C4.98958 0.769857 5.12923 0.741211 5.27246 0.741211C5.50163 0.741211 5.70573 0.827148 5.88477 0.999023C6.07096 1.1709 6.16406 1.44303 6.16406 1.81543V4.46875H8.84961C9.22201 4.46875 9.49414 4.56185 9.66602 4.74805C9.83789 4.92708 9.92383 5.13118 9.92383 5.36035C9.92383 5.50358 9.89518 5.64323 9.83789 5.7793C9.7806 5.91536 9.69466 6.04069 9.58008 6.15527C9.47266 6.26986 9.34017 6.36296 9.18262 6.43457C9.02507 6.49902 8.84603 6.53125 8.64551 6.53125H6.16406V8.92676C6.16406 9.16309 6.13184 9.37077 6.06738 9.5498C6.01009 9.72884 5.93132 9.87923 5.83105 10.001C5.73796 10.1156 5.62695 10.2051 5.49805 10.2695C5.3763 10.3268 5.25098 10.3555 5.12207 10.3555C4.99316 10.3555 4.86784 10.3268 4.74609 10.2695C4.62435 10.2122 4.51335 10.1263 4.41309 10.0117C4.31999 9.89714 4.24479 9.75391 4.1875 9.58203C4.13021 9.40299 4.10156 9.19889 4.10156 8.96973V6.53125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="footer-nav-linklists my-3 overflow-hidden transition-all "
+                data-testid="nav-linklists-1"
+              >
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      About Us
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Careers
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Press
+                    </span>
+                  </a>
+                </div>
+                <div
+                  class="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <a
+                    href="/"
+                  >
+                    <span>
+                      Affiliates
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="social-links-wrap basis-full md:basis-1/6"
+          >
+            <div
+              class="title font-title footer-title text-white"
+            >
+              Follow Us
+            </div>
+            <div
+              class="social-links mt-3 md:mt-5 flex items-center justify-start gap-10 md:gap-12"
+            >
+              <a
+                class="socil-llink-item"
+                href="https://facebook/dyode"
+              >
+                <svg
+                  fill="none"
+                  height="26"
+                  viewBox="0 0 14 26"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.444 4.31708H14V0.183083C13.559 0.12675 12.0425 0 10.2763 0C6.59112 0 4.06666 2.15258 4.06666 6.10892V9.75H0V14.3715H4.06666V26H9.05258V14.3726H12.9548L13.5742 9.75108H9.05141V6.56717C9.05258 5.23142 9.43988 4.31708 11.444 4.31708Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <a
+                class="socil-llink-item"
+                href="https://instagram/dyode"
+              >
+                <svg
+                  fill="none"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  width="26"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.8247 0H7.17486C3.21865 0 0 3.2188 0 7.17502V18.8248C0 22.7812 3.21865 25.9998 7.17486 25.9998H18.8247C22.7812 25.9998 25.9998 22.781 25.9998 18.8248V7.17502C26 3.2188 22.7812 0 18.8247 0ZM23.6932 18.8248C23.6932 21.5092 21.5092 23.693 18.8248 23.693H7.17486C4.49063 23.6932 2.30683 21.5092 2.30683 18.8248V7.17502C2.30683 4.49079 4.49063 2.30683 7.17486 2.30683H18.8247C21.5091 2.30683 23.693 4.49079 23.693 7.17502V18.8248H23.6932Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M13 6.30054C9.30588 6.30054 6.30054 9.30588 6.30054 13C6.30054 16.694 9.30588 19.6992 13 19.6992C16.6942 19.6992 19.6995 16.694 19.6995 13C19.6995 9.30588 16.6942 6.30054 13 6.30054ZM13 17.3922C10.578 17.3922 8.60737 15.4219 8.60737 12.9999C8.60737 10.5777 10.5779 8.60722 13 8.60722C15.4222 8.60722 17.3927 10.5777 17.3927 12.9999C17.3927 15.4219 15.4221 17.3922 13 17.3922Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M19.9803 4.34473C19.5359 4.34473 19.0993 4.52466 18.7854 4.83993C18.47 5.15366 18.2886 5.59042 18.2886 6.0364C18.2886 6.48101 18.4701 6.91761 18.7854 7.23288C19.0991 7.54661 19.5359 7.72808 19.9803 7.72808C20.4263 7.72808 20.8615 7.54661 21.1768 7.23288C21.492 6.91761 21.672 6.48085 21.672 6.0364C21.672 5.59042 21.492 5.15366 21.1768 4.83993C20.8631 4.52466 20.4263 4.34473 19.9803 4.34473Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+</div>
+`;

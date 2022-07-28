@@ -10,6 +10,7 @@ const Header = () => {
   return (
     <header className="header bg-dyode-green px-5 md:px-12 md:pt-8 md:pb-5 py-2 flex  flex-row items-center">
       <div
+        data-testid="header-menu-icon"
         className="header-menu__icon md:hidden"
         onClick={() => setNavActive(!navActive)}
       >
@@ -42,7 +43,10 @@ const Header = () => {
         </Link>
       </div>
       <div className="header-navigation grow">
-        <div className={`nav__menu ${navActive ? "active" : ""}`}>
+        <div
+          data-testid="header-nav"
+          className={`nav__menu ${navActive ? "active" : ""}`}
+        >
           {MENU_LIST.map((menu) => (
             <div
               onClick={() => {

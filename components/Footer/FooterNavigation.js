@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { MINUS_ICON, PLUS_ICON } from "../../utils/icons";
 import { useState } from "react";
-import { FOOTER_MENU_ITEMS } from "../../utils/data";
 
-const FooterNavigation = () => {
+const FooterNavigation = ({ footerNavItems = [] }) => {
   const [activeNavIndex, setActiveNavIndex] = useState(-1);
 
   const updateActiveNavIndex = (idx) => {
@@ -16,7 +15,7 @@ const FooterNavigation = () => {
 
   return (
     <div className="flex flex-grow flex-wrap">
-      {FOOTER_MENU_ITEMS.map((footerNavItem, idx) => (
+      {footerNavItems.map((footerNavItem, idx) => (
         <div key={idx} className="footer-nav-item basis-full md:basis-1/5">
           <div
             data-testid={`nav-title-${idx}`}
@@ -38,18 +37,20 @@ const FooterNavigation = () => {
               idx == activeNavIndex ? "active" : ""
             }`}
           >
-            {footerNavItem.linkLists.map((linklist, idx) => (
-              <div
-                key={idx}
-                className="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
-              >
-                <Link href={linklist.href}>
-                  <a>
-                    <span>{linklist.text}</span>
-                  </a>
-                </Link>
-              </div>
-            ))}
+            {footerNavItem.linkLists &&
+              typeof footerNavItem.linkLists == "object" &&
+              footerNavItem.linkLists.map((linklist, idx) => (
+                <div
+                  key={idx}
+                  className="footer-nav-link text-white text-xs md:text-lg leading-7 md:leading-10"
+                >
+                  <Link href={linklist.href}>
+                    <a>
+                      <span>{linklist.text}</span>
+                    </a>
+                  </Link>
+                </div>
+              ))}
           </div>
         </div>
       ))}

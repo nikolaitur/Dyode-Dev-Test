@@ -1,11 +1,8 @@
 import Slider from "react-slick";
 import { NEXT_ARROW, PREV_ARROW } from "../../utils/icons";
 import ProductItem from "./ProductItem";
-import { PRODUCT_ITEMS } from "../../utils/data";
 
-const SECTION_TITLE = "New Arrivals";
-
-const ProductsCarousel = () => {
+const ProductsCarousel = ({ productItems = [], title = "" }) => {
   var settings = {
     dots: false,
     arrows: true,
@@ -26,12 +23,10 @@ const ProductsCarousel = () => {
   };
   return (
     <div className="container products-slider-container mt-4 md:mt-12 mb-8 md:mb-16">
-      <div className="section-title font-title text-center">
-        {SECTION_TITLE}
-      </div>
+      <div className="section-title font-title text-center">{title}</div>
       <div className="products-slider">
         <Slider {...settings}>
-          {PRODUCT_ITEMS.map((productItem, idx) => (
+          {productItems.map((productItem, idx) => (
             <ProductItem key={idx} {...productItem} />
           ))}
         </Slider>
