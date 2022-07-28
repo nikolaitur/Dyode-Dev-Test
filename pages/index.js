@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Topbar from "../components/Topbar";
 import Header from "../components/Header/Header";
+import HeroSlider from "../components/Hero/HeroSlider";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           topBarMsgMobile="Free Shipping On All Orders"
         />
         <Header />
+        <HeroSlider />
       </main>
     </div>
   );
