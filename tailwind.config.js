@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      body: ["Lato", "sans-serif"],
+      title: ["pacifico", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        "dyode-green": "#10504F",
+      },
+    },
   },
   plugins: [],
 };
