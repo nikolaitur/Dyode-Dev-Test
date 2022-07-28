@@ -14,8 +14,8 @@ const HeroSlider = () => {
   return (
     <div className="hero-slider-container">
       <Slider {...settings}>
-        {HERO_SLIDER_ITEMS.map((heroSlide) => (
-          <HeroSlideItem {...heroSlide} />
+        {HERO_SLIDER_ITEMS.map((heroSlide, idx) => (
+          <HeroSlideItem key={idx} {...heroSlide} />
         ))}
       </Slider>
     </div>
