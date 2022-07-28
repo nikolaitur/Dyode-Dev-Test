@@ -6,6 +6,7 @@ import CollectionGrid from "../components/Collections/CollectionGrid";
 import ProductsCarousel from "../components/ProductCarousel/ProductsCarousel";
 import NewsletterForm from "../components/NewsletterForm";
 import HeroSlideItem from "../components/Hero/HeroSlideItem";
+import Footer from "../components/Footer/Footer";
 import { SECONDARY_HERO } from "../utils/data";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <ProductsCarousel />
         <HeroSlideItem {...SECONDARY_HERO} />
         <NewsletterForm />
+        <Footer />
       </main>
     </div>
   );

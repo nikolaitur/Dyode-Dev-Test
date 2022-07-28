@@ -1,3 +1,5 @@
+import { FACEBOOK, INSTAGRAM } from "./icons";
+
 export const MENU_LIST = [
   { text: "Men's", href: "/mens" },
   { text: "Women's", href: "/womens" },
@@ -112,3 +114,69 @@ export const SECONDARY_HERO = {
   textPrimaryColor: false,
   contentPosition: "top-right",
 };
+
+export const FOOTER_MENU_ITEMS = [
+  {
+    linkListTitle: "Customer Service",
+    linkLists: [
+      {
+        text: "Accessibility",
+        href: "/",
+      },
+      {
+        text: "Contact Us",
+        href: "/",
+      },
+      {
+        text: "Return Policy",
+        href: "/",
+      },
+      {
+        text: "FAQ",
+        href: "/",
+      },
+      {
+        text: "Gift Certificates",
+        href: "/",
+      },
+      {
+        text: "Wishlist",
+        href: "/",
+      },
+    ],
+  },
+  {
+    linkListTitle: "Company",
+    linkLists: [
+      {
+        text: "About Us",
+        href: "/",
+      },
+      {
+        text: "Careers",
+        href: "/",
+      },
+      {
+        text: "Press",
+        href: "/",
+      },
+      {
+        text: "Affiliates",
+        href: "/",
+      },
+    ],
+  },
+];
+
+export const SOCIAL_LINKS = [
+  {
+    name: "Facebook",
+    content: FACEBOOK,
+    href: "https://facebook/dyode",
+  },
+  {
+    name: "Instagram",
+    content: INSTAGRAM,
+    href: "https://instagram/dyode",
+  },
+];

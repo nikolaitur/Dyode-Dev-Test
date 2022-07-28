@@ -150,6 +150,19 @@ body {
   height: 40px;
 }
 
+.footer-title {
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.footer-nav-linklists:not(.active) {
+  max-height: 0;
+}
+
+.footer-nav-linklists.active {
+  max-height: 200px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 46px;
@@ -336,5 +349,9 @@ body {
 
   .newsletter-section form input::placeholder {
     color: #c6c6c6;
+  }
+
+  .footer-nav-linklists:not(.active) {
+    max-height: unset;
   }
 }
